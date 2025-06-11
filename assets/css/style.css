@@ -12,6 +12,10 @@
   background-color: #FF6801;
 }
 
+.m-left-0 {
+  margin-left: 0px;
+}
+
 
 /*Position*/
 .position-relative {
@@ -90,7 +94,8 @@ header img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
+  padding: 15px 0;
+
 }
 
 header i {
@@ -175,4 +180,39 @@ footer a {
 .footer-right p {
   padding-right: 50px;
   margin: 5px;
+}
+
+
+/*trick immagini*/
+
+
+
+.img-container {
+  position: relative;
+}
+
+.img-container img {
+  display: block;
+}
+
+.img-on {
+  display: block;
+
+}
+
+.img-off {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+}
+
+.img-container:hover .img-off {
+  opacity: 1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
