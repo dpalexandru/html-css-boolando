@@ -8,6 +8,10 @@
 
 /*Utility*/
 
+.bg-gold {
+  background-color: #FF6801;
+}
+
 
 /*Position*/
 .position-relative {
@@ -24,10 +28,27 @@
   left: 0px;
 }
 
+main {
+  padding-top: 100px;
+}
+
 /*classi leyout*/
 
 .container {
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col {
+  border: 1px solid black;
+  width: calc(100%/3 - 20px);
+  height: 550px;
 }
 
 
