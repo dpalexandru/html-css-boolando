@@ -41,15 +41,18 @@ main {
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
 }
 
 .card {
-  width: calc(100%/3 - 30px / 3);
+  width: 390px;
   height: 630px;
   margin-bottom: 20px;
   position: relative;
 }
+
+
+
 
 .card img {
   width: 100%;
