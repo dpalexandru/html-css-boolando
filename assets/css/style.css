@@ -168,6 +168,7 @@ footer {
   height: 100px;
   padding: 10px;
   padding-top: 20px;
+  margin-top: 30px;
 
 }
 
@@ -180,6 +181,10 @@ footer a {
 .footer-right p {
   padding-right: 50px;
   margin: 5px;
+}
+
+.footer-left h3 {
+  text-align: left;
 }
 
 
