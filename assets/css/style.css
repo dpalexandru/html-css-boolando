@@ -51,6 +51,12 @@ main {
   width: 100%;
 }
 
+.align-items-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 
 
 /*header*/
@@ -149,4 +155,24 @@ header i {
 
 .second-adv {
   left: 60px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+  padding: 10px;
+  padding-top: 20px;
+
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-right: 8px;
+}
+
+.footer-right p {
+  padding-right: 50px;
+  margin: 5px;
 }
