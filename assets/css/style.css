@@ -43,7 +43,11 @@ main {
 .card {
   border: 1px solid black;
   width: calc(100%/3 - 20px / 3);
-  height: 550px;
+  height: 650px;
+}
+
+.card img {
+  width: 100%;
 }
 
 
@@ -89,4 +93,26 @@ header i {
 
 .icone {
   margin-left: 100px;
+}
+
+.marca {
+  color: gray;
+  font-size: 16px;
+}
+
+.nome-prodotto {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.prezzo {
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+}
+
+.prezzo-precedente {
+  color: gray;
+  text-decoration: line-through;
+
 }
