@@ -41,9 +41,10 @@ main {
 }
 
 .card {
-  border: 1px solid black;
   width: calc(100%/3 - 20px / 3);
-  height: 650px;
+  height: 630px;
+  margin-bottom: 20px;
+  position: relative;
 }
 
 .card img {
@@ -95,6 +96,7 @@ header i {
   margin-left: 100px;
 }
 
+/*main*/
 .marca {
   color: gray;
   font-size: 16px;
@@ -115,4 +117,16 @@ header i {
   color: gray;
   text-decoration: line-through;
 
+}
+
+.like-button {
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+.like-button:hover {
+  color: red;
 }
