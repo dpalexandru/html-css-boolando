@@ -37,11 +37,11 @@ main {
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
 }
 
 .card {
-  width: calc(100%/3 - 20px / 3);
+  width: calc(100%/3 - 30px / 3);
   height: 630px;
   margin-bottom: 20px;
   position: relative;
@@ -129,4 +129,24 @@ header i {
 
 .like-button:hover {
   color: red;
+}
+
+.discount {
+  color: white;
+  background-color: red;
+  padding: 4px 8px;
+  position: absolute;
+  bottom: 90px;
+}
+
+.sostenibility {
+  color: white;
+  background-color: green;
+  padding: 4px 8px;
+  position: absolute;
+  bottom: 90px;
+}
+
+.second-adv {
+  left: 60px;
 }
