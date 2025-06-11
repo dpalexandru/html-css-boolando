@@ -1,0 +1,55 @@
+/* Reset*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Utility*/
+
+
+/*Position*/
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+  top: 0;
+  left: 0px;
+}
+
+/*classi leyout*/
+
+.container {
+  max-width: 1200px;
+}
+
+
+
+/*header*/
+
+header {
+  background-color: #FF6801;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline;
+  font-weight: 600;
+  padding: 20px;
+
+}
+
+li {
+  display: inline;
+}
